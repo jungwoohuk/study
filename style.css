@@ -1,0 +1,74 @@
+.section:nth-child(2){
+    width: 100vw;
+    height: 50vh;
+    background-color: #000;
+
+}
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+  }
+  nav{
+    box-shadow: 0px -10px 20px #000;
+    
+  }
+  .section:nth-child(2){
+    width: 100vw;
+    height: 550px;
+    background: #f8f9fa;
+    position: relative;
+    text-align: left;
+  }
+  .section:nth-child(3){
+    width: 100vw;
+    height: 550px;
+    background: #f8f9fa;
+    position: relative;
+    text-align: left;
+  }
+  .section:nth-child(4){
+    width: 100vw;
+    height: 550px;
+    background: #f8f9fa;
+    position: relative;
+    text-align: left;
+  }
+  .head li{
+    display: inline-block;
+    
+  }
+  .xline{
+    width: 100vw;
+    height: 0.1vh;
+    background: #000;
+    position: absolute;
+    top: 7%;
+   
+    
+  }
+  .contents{
+    width: 90vw;
+    height: 500px;
+    /* background: #fff; */
+    margin: auto;
+    overflow: hidden;
+  }
+  .scrollbar{
+     overflow-x: auto;
+    
+  }
+  .scrollbar::-webkit-scrollbar { 
+    
+    height: 15px;    
+} 
+    
+    .scrollbar::-webkit-scrollbar-thumb { 
+    background-color: skyblue; /*스크롤바의 색상*/ 
+    border-radius: 10px; /*스크롤바 라운드*/} 
+    
+    .scrollbar::-webkit-scrollbar-track { 
+    background-color: #eee; /*스크롤바 트랙 색상*/ 
+    border-radius: 10px; /*스크롤바 트랙 라운드*/ 
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.2); /*스크롤바 트랙 안쪽 그림자*/}
